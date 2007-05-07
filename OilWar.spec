@@ -1,6 +1,6 @@
 %define	name	OilWar
 %define	version	1.2.1
-%define	rel	7
+%define	rel	8
 %define	release	%mkrel %{rel}
 %define	Summary	Very simple mouse shooting game
 
@@ -54,7 +54,7 @@ cat <<EOF > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop
 Encoding=UTF-8
 Name=%{name}
 Comment=%{Summary}
-Exec=%{_gamesbindir}/%{name}
+Exec=%{_gamesbindir}/oilwar
 Icon=%{name}
 Terminal=false
 Type=Application
