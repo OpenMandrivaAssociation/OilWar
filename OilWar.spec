@@ -17,6 +17,7 @@ Source13:	%{name}-48x48.png
 Patch0:		%{name}-fix-scoredir.patch.bz2
 URL:		http://www.2ndpoint.fi/projektit/oilwar.html
 BuildRequires:	SDL_image-devel SDL_mixer-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 OilWar is a simple game where you shoot enemy soldiers and tanks with
