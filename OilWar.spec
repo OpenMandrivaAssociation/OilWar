@@ -37,16 +37,6 @@ the mother land...
 rm -rf %{buildroot}
 %makeinstall_std
 
-install -d %{buildroot}%{_menudir}
-cat <<EOF > %{buildroot}%{_menudir}/%{name}
-?package(%{name}):command="%{_gamesbindir}/oilwar" \
-		icon=%{name}.png \
-		needs="x11" \
-		section="More Applications/Games/Arcade" \
-		title="%{name}"\
-		longtitle="%{Summary}" \
-		xdg="true"
-EOF
 
 install -d %{buildroot}%{_datadir}/applications
 cat <<EOF > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop
@@ -83,5 +73,4 @@ rm -rf %{buildroot}
 %{_iconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
