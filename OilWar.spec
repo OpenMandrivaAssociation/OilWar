@@ -69,7 +69,7 @@ rm -rf %{buildroot}
 %doc ChangeLog README AUTHORS
 %attr(2755,root,games) %{_gamesbindir}/*
 %{_gamesdatadir}/oilwar
-%attr(664,root,games) %{_localstatedir}/games/*.scores
+%attr(664,root,games) %{_localstatedir}/lib/games/*.scores
 %{_iconsdir}/%{name}.png
 %{_liconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
