@@ -1,6 +1,6 @@
 %define	name	OilWar
 %define	version	1.2.1
-%define	rel	8
+%define	rel	9
 %define	release	%mkrel %{rel}
 %define	Summary	Very simple mouse shooting game
 
