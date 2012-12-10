@@ -78,3 +78,57 @@ rm -rf %{buildroot}
 %{_liconsdir}/%{name}.png
 %{_miconsdir}/%{name}.png
 %{_datadir}/applications/mandriva-%{name}.desktop
+
+
+%changelog
+* Wed Dec 08 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2.1-10mdv2011.0
++ Revision: 616417
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.2.1-9mdv2010.0
++ Revision: 430198
+- rebuild
+
+* Thu Jun 12 2008 Pixel <pixel@mandriva.com> 1.2.1-8mdv2009.0
++ Revision: 218434
+- rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+- adapt to %%_localstatedir now being /var instead of /var/lib (#22312)
+
+* Fri Jan 11 2008 Thierry Vignaud <tv@mandriva.org> 1.2.1-8mdv2008.1
++ Revision: 148302
+- drop old menu
+- kill re-definition of %%buildroot on Pixel's request
+- kill desktop-file-validate's 'warning: key "Encoding" in group "Desktop Entry" is deprecated'
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon May 07 2007 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.2.1-8mdv2008.0
++ Revision: 23944
+- fix wrong path in menu item (fixes #30669)
+- Import OilWar
+
+
+
+* Fri Aug 25 2006 Per Øyvind Karlsen <pkarlsen@mandriva.com> 1.2.1-7mdv2007.0
+- add xdg menu
+
+* Tue Jun 20 2006 Lenny Cartier <lenny@mandriva.com> 1.2.1-6mdv2007.0
+- rebuild
+
+* Wed May 04 2005 Per Øyvind Karlsen <pkarlsen@mandriva.com> 1.2.1-5mdk
+- rebuild
+- %%mkrel
+
+* Wed Sep 01 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.2.1-4mdk
+- rebuild for new menu (fixes #11024)
+
+* Tue Jun 15 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.2.1-3mdk
+- rebuild
+
+* Thu May 20 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.2.1-2mdk
+- change summary macro to avoid possible conflicts if we were to build debug package
+- don't bzip2 icons in src.rpm
+
+* Sat Apr 12 2003 Per Øyvind Karlsen <peroyvind@sintrax.net> 1.2.1-1mdk
+- initial mdk release

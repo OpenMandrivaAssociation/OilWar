@@ -1,5 +1,3 @@
 sources:
-  "OilWar-1.2.1.tar.bz2:"	94bbaed6e0dcab36152c3017d20507713eb45c52
-  "OilWar-16x16.png:"	37f9351f81929f7d8af2ac62c3da06ed2148a573
-  "OilWar-32x32.png:"	37f9351f81929f7d8af2ac62c3da06ed2148a573
-  "OilWar-48x48.png:"	37f9351f81929f7d8af2ac62c3da06ed2148a573
+  "OilWar-1.2.1.tar.bz2": 94bbaed6e0dcab36152c3017d20507713eb45c52
+  "OilWar-fix-scoredir.patch.bz2": 25c5841166359107391309167683b756de12060f
