@@ -15,7 +15,7 @@ Source11:	%{name}-16x16.png
 Source12:	%{name}-32x32.png
 Source13:	%{name}-48x48.png
 Patch0:		%{name}-fix-scoredir.patch.bz2
-URL:		http://www.2ndpoint.fi/projektit/oilwar.html
+URL:		https://www.2ndpoint.fi/projektit/oilwar.html
 BuildRequires:	SDL_image-devel SDL_mixer-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
